@@ -32,7 +32,7 @@ import org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfigurati
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
-@SpringBootApplication(exclude = {LiquibaseAutoConfiguration.class})
+@SpringBootApplication
 public class FusionConnectCCMApplication {
 
   public static void main(final String[] args) {
