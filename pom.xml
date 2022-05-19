@@ -19,7 +19,7 @@
 		<spring.cloud.version>2021.0.1</spring.cloud.version>
 		<mariadb.version>2.7.2</mariadb.version>
 		<sonar.organization>fusion-oss</sonar.organization>
-		<liquibase-core.version>3.10.3</liquibase-core.version>
+		<liquibase-core.version>4.8.0</liquibase-core.version>
 	</properties>
 
 	<scm>
