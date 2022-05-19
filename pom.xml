@@ -15,7 +15,7 @@
 	<url>https://github.com/fusion-oss/${project.artifactId}</url>
 
 	<properties>
-		<spring.version>2.6.4</spring.version>
+		<spring.version>2.6.6</spring.version>
 		<spring.cloud.version>2021.0.1</spring.cloud.version>
 		<mariadb.version>2.7.2</mariadb.version>
 		<sonar.organization>fusion-oss</sonar.organization>
