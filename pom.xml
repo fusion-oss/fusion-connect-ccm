@@ -21,6 +21,7 @@
 		<spring.cloud.version>2021.0.1</spring.cloud.version>
 		<mariadb.version>2.7.2</mariadb.version>
 		<sonar.organization>fusion-oss</sonar.organization>
+		<liquibase-core.version>3.10.3</liquibase-core.version>
 	</properties>
 
 	<scm>
@@ -120,7 +121,7 @@
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
-			<version>3.10.3</version>
+			<version>${liquibase-core.version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
